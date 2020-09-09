@@ -2,7 +2,7 @@
 本插件是此插件的升级版本 [git-commit-template-help](https://plugins.jetbrains.com/plugin/13477-git-commit-message-helper) , 在此之上添加了 git message 校验功能
 
 ## Installation
-直接从IDE插件管理器进行安装（File > Settings > Plugins > Browser repositories > Git Commit Util）
+直接从IDE插件管理器进行安装（File > Settings > Plugins > Browser repositories > Git Message Util）
 
 ## Usage
 
