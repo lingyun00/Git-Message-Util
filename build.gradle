@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '0.4.22'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+group 'com.lingyun00'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'uk.com.robust-it', name: 'cloning', version: '1.9.12'
+}
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+    version 'IU-2020.1'
+    plugins 'git4idea'
+    intellij.updateSinceUntilBuild false
+}
+
+patchPluginXml {
+    changeNotes """
+         <ul>
+              <li>personalized submission type<br></li>
+              <li>personalized submission template</li>
+         </ul>
+     """
+}
