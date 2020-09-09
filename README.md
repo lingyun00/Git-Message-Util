@@ -1,4 +1,4 @@
-# Git Commit Util
+# Git Message Util
 本插件是此插件的升级版本 [git-commit-template-help](https://plugins.jetbrains.com/plugin/13477-git-commit-message-helper) , 在此之上添加了 git message 校验功能
 
 ## Installation
