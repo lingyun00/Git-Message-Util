@@ -19,7 +19,8 @@ dependencies {
     compile group: 'uk.com.robust-it', name: 'cloning', version: '1.9.12'
 }
 
-// See https://github.com/JetBrains/gradle-intellij-plugin/
+// intellij.updateSinceUntilBuild false 解决版本兼容问题
+// plugins 'git4idea' 获取当前项目分支需要依赖的插件
 intellij {
     version 'IU-2020.1'
     plugins 'git4idea'
